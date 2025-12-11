@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inline vs Block Elements</title>
+  <style>
+    .block-example {
+      border: 2px solid #4CAF50;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #e0f7fa;
+    }
+
+    .inline-example {
+      color: white;
+      background-color: #2196F3;
+      padding: 5px;
+      margin: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Block Elements Example</h1>
+  
+  <!-- Block elements: take full width -->
+  <div class="block-example">This is a &lt;div&gt; (block element)</div>
+  <p class="block-example">This is a &lt;p&gt; paragraph (block element)</p>
+  <h2 class="block-example">This is a &lt;h2&gt; heading (block element)</h2>
+
+  <h1>Inline Elements Example</h1>
+  
+  <!-- Inline elements: take only necessary width -->
+  <p>
+    This is a paragraph with 
+    <span class="inline-example">inline span 1</span> 
+    and 
+    <span class="inline-example">inline span 2</span> 
+    inside it.
+  </p>
+  
+  <p>
+    Here is a <a href="#" class="inline-example">link</a> and some 
+    <strong class="inline-example">bold text</strong>.
+  </p>
+
+</body>
+</html>
